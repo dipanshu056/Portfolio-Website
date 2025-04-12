@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dipanshu Sagar - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo2.png" class="logo" alt="Dipanshu Sagar Logo">
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            
+            <div class="header-text">
+                <h4>Web Developer & Problem Solver</h4>
+                <h1>Hi, I'm <span>Dipanshu</span><br>Sagar from Bulandshahr</h1>
+            </div>
+        </div>
+    </div>
+    <!-------about---->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col1">
+                    <img src="images/dipanshu.jpg">
+                </div>
+                <div class="about-col2">
+                    <h1 class="subtitle">About Me</h1>
+                    <p>I’m Dipanshu Sagar, a B.Tech Computer Science student skilled in Java, web development, and problem-solving. I build user-centric solutions with a passion for innovation and efficiency.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Programming</span><br>Java, Python, C++</li>
+                            <li><span>Web Development</span><br>HTML, CSS, JavaScript</li>
+                            <li><span>Database</span><br>MySQL</li>
+                            <li><span>Tools</span><br>Git, VS Code</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2022 - Present</span><br>B.Tech in Computer Science, GL Bajaj Group of Institutions, Mathura</li>
+                            <li><span>2014 - 2021</span><br>Jawahar Navodaya Vidyalaya, Bulandshahr</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2024</span><br>Contributed to open-source projects on GitHub</li>
+                            <li><span>2023</span><br>Developed academic projects in web development</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-------services---->
+    <div id="services">
+        <div class="container">
+            <h1 class="subtitle">My Services</h1>
+            <div class="services-list">
+                <div class="service">
+                    <i class="fa fa-code" aria-hidden="true"></i>
+                    <h2>Web Development</h2>
+                    <p>Building responsive, scalable web applications with clean code to deliver seamless user experiences.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div class="service">
+                    <i class="fas fa-crop-alt"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Designing intuitive interfaces with a focus on usability and engagement.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div class="service">
+                    <i class="fab fa-app-store"></i>
+                    <h2>App Development</h2>
+                    <p>Creating mobile apps with efficient performance and modern design for Android and iOS.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-------portfolio---->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="subtitle">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/travel.webp">
+                    <div class="layer">
+                        <h3>Travel and Tourist Guidance App</h3>
+                        <p>A mobile app for travelers with personalized itineraries and real-time navigation. Built for seamless UX.</p>
+                        <a href="https://github.com/dipanshu056/wonder-wise"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/weather.webp">
+                    <div class="layer">
+                        <h3>Weather Forecast App</h3>
+                        <p>A responsive app with accurate forecasts and interactive visuals using modern web technologies.</p>
+                        <a href="https://github.com/dipanshu056/weather-forecast"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/shopping.webp">
+                    <div class="layer">
+                        <h3>Online Shopping Website</h3>
+                        <p>An e-commerce platform with stylish design and smooth checkout, built with HTML and CSS.</p>
+                        <a href="https://github.com/dipanshu056/Fashion-Store-using-HTML-CSS"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work2.jpg">
+                    <div class="layer">
+                        <h3>Student Attendance System</h3>
+                        <p>A web-based student attendance system with secure login, real-time tracking, and detailed reporting. Designed for schools to simplify management efficiently. Source code available on GitHub!</p>
+                        <a href="https://github.com/dipanshu056/Student-Attendance-System"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+
+    <!-------contact---->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="subtitle">Contact Me</h1>
+                    <p><i class="fas fa-paper-plane"></i> dipusagar12@gmail.com</p>
+                    <p><i class="fas fa-phone-square-alt"></i> 7505091938</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/dipanshu-20669b28b/"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://x.com/DipanshuSa27269"><i class="fab fa-twitter-square"></i></a>
+                        <a href="https://www.instagram.com/https_dipu24/"><i class="fab fa-instagram подпружиненные"></i></a>
+                    </div>
+                    <a href="My-cv.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="copy-right">
+        <p>Copyright © 2025 Dipanshu Sagar. Built with dedication.</p>
+    </div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzYfc3RnTaErWXhHaKAgF7SKZAB0JO7xcbdC3sXWJUbKX8vt-P7vJffOWyma40RcnDs/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+    
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => {
+                    msg.innerHTML = "Message sent successfully"
+                    setTimeout(function(){
+                        msg.innerHTML = ""
+                    },5000)
+                    form.reset()
+                })
+                .catch(error => {
+                    msg.innerHTML = "Error sending message"
+                    console.error('Error!', error.message)
+                })
+        })
+    </script>
+</body>
+</html>
